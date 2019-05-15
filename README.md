@@ -1,4 +1,4 @@
-# aws-multi-account-hardening
+# AWS Organization & Multi-Account Hardening
 
 ## Step 1: AWS Organizations and Multi-Account Hardening
 - Wait for https://aws.amazon.com/controltower/
