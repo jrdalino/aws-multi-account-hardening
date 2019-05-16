@@ -10,7 +10,7 @@
 
 ### Step 1.2: Create Core OU's
 
-### Step 1.3: Craete Core Accounts
+### Step 1.3: Create Core Accounts
 - AWS Organizations AWS Account
 - Shared Services AWS Account
 - Log Archive AWS Account
@@ -66,6 +66,8 @@ Reference
 ### Step 1.15: Enable Guard Duty for Intelligent threat detection
 
 ### Step 1.16: Enable Security Hub for Compliance Scanning
+
+### Step 1.18: Create Tags
 
 ### Step 1.17: Create AWS Budgets
 
