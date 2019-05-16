@@ -32,7 +32,7 @@ Reference
 - https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_example-scps.html
 - https://github.com/jchrisfarris/aws-service-control-policies
 
-### Step 1.5: Per new Devloper and Project, Create Dev, Staging and Production Accounts
+### Step 1.5: Per new Developer Create a Sandbox and per Project a set of Development, Staging and Production Accounts
 - Developer Sandbox AWS Account
 - Development AWS Account
 - Staging AWS Account
