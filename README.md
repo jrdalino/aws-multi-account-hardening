@@ -67,9 +67,9 @@ Reference
 
 ### Step 1.16: Enable Security Hub for Compliance Scanning
 
-### Step 1.18: Create Tags
+### Step 1.17: Create Tags
 
-### Step 1.17: Create AWS Budgets
+### Step 1.18: Create AWS Budgets
 
 ## (Clean Up)
 
