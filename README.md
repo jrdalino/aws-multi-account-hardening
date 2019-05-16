@@ -70,10 +70,10 @@ Reference
 ### Step 1.17: Enable Cost Usage Report
 - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-reports-gettingstarted-turnonreports.html
 
-### Step 1.17: Create Tags
+### Step 1.18: Create Tags
 - https://aws.amazon.com/answers/account-management/aws-tagging-strategies/
 
-### Step 1.18: Create AWS Budgets
+### Step 1.19: Create AWS Budgets
 - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-create.html
 
 ## (Clean Up)
