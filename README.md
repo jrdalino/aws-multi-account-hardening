@@ -51,7 +51,7 @@ Reference
 - Cloudfront Logs
 - VPC Flow Logs
 
-### Step 1.10 Enable SNS topics for alerting and notifications
+### Step 1.10: Enable SNS topics for alerting and notifications
 
 ### Step 1.11: In All Accounts Enable AWS CloudTrail and send logs to Log Archive Account
 
