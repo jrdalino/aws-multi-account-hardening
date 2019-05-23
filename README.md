@@ -44,7 +44,7 @@ Reference
 
 ### Step 1.8: In All Accounts Apply IAM Password Policy
 
-### Step 1.9 Create S3 Buckets in the Log Archive Account
+### Step 1.9: Create S3 Buckets in the Log Archive Account
 - CloudTrail Logs
 - Config Logs
 - ELB Logs
