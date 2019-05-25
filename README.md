@@ -14,7 +14,7 @@ $ aws organizations create-organization
 ```
 $ aws organizations create-organizational-unit \
 --parent-id r-examplerootid111 \
---name AccountingOU
+--name CoreOU
 ```
 
 ### Step 1.3: Create Core Accounts
