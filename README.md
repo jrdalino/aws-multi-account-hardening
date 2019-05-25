@@ -46,28 +46,28 @@ Reference
 - Staging AWS Account
 - Production AWS Account
 
-### Step 1.6: Activate MFA and Secure Root User
+### Step 1.6: In organizations account activate MFA and Secure Root User
 
-### Step 1.7: Create Groups, Users and Roles in the Identify & Access Account
+### Step 1.7: In identity & acess account create Groups, Users and Roles
 
-### Step 1.8: In All Accounts Apply IAM Password Policy
+### Step 1.8: In all accounts apply IAM Password Policy
 
-### Step 1.9: Create S3 Buckets in the Log Archive Account
+### Step 1.9: In Log Archive Account Create the following S3 Buckets
 - CloudTrail Logs
 - Config Logs
 - ELB Logs
 - Cloudfront Logs
 - VPC Flow Logs
 
-### Step 1.10: Enable SNS topics for alerting and notifications
+### Step 1.10: In all accounts enable SNS topics for alerting and notifications
 
-### Step 1.11: In All Accounts Enable AWS CloudTrail and send logs to Log Archive Account
+### Step 1.11: In all accounts enable AWS CloudTrail and send logs to Log Archive Account
 - https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/EnableAWSCloudtrail.yml
 
-### Step 1.12: Enable Config for AWS resource config tracking
+### Step 1.12: In all accounts enable Config for AWS resource config tracking
 - https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/EnableAWSConfig.yml
 
-### Step 1.13 Enable Config Rules
+### Step 1.13 In all accounts enable Config Rules
 Config Rule to determine whether the root user has MFA enabled
 - https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/ConfigRuleRootAccountMFAEnabled.yml
 
@@ -84,19 +84,19 @@ Reference:
 - https://github.com/awslabs/aws-config-rules
 - https://github.com/awslabs/aws-config-engine-for-compliance-as-code
 
-### Step 1.14: In All Accounts Delete Default VPC's in all Regions
+### Step 1.14: In all accounts Delete Default VPC's in all Regions
 - https://github.com/jrdalino/aws-delete-default-vpc
 
-### Step 1.15: Enable Guard Duty for Intelligent threat detection
+### Step 1.15: In all accounts Enable Guard Duty for Intelligent threat detection
 - https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/EnableAWSGuardDuty.yml
 
 Reference:
 - https://github.com/jrdalino/aws-guardduty
 
-### Step 1.16: Enable Security Hub for Compliance Scanning
+### Step 1.16: In all accounts enable Security Hub for Compliance Scanning
 - 
 
-### Step 1.17: Enable Cost Usage Report
+### Step 1.17: In organizations account enable Cost Usage Report
 - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-reports-gettingstarted-turnonreports.html
 
 ### Step 1.18: Create Tags
