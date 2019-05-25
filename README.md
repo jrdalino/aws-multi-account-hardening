@@ -6,9 +6,16 @@
 ## Step 1: AWS Organizations and Multi-Account Hardening
 
 ### Step 1.1: Create AWS Organization
-- Enable AWS Organizations + Landing Zone (https://aws.amazon.com/solutions/aws-landing-zone/)
+```
+$ aws organizations create-organization
+```
 
 ### Step 1.2: Create Core OU's
+```
+$ aws organizations create-organizational-unit \
+--parent-id r-examplerootid111 \
+--name AccountingOU
+```
 
 ### Step 1.3: Create Core Accounts
 - AWS Organizations AWS Account
@@ -29,6 +36,7 @@
 - Denies the account from leaving the organization
 
 Reference
+- https://github.com/jrdalino/aws-organizations
 - https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_example-scps.html
 - https://github.com/jchrisfarris/aws-service-control-policies
 
@@ -54,18 +62,36 @@ Reference
 ### Step 1.10: Enable SNS topics for alerting and notifications
 
 ### Step 1.11: In All Accounts Enable AWS CloudTrail and send logs to Log Archive Account
+- https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/EnableAWSCloudtrail.yml
 
 ### Step 1.12: Enable Config for AWS resource config tracking
+- https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/EnableAWSConfig.yml
 
 ### Step 1.13 Enable Config Rules
+Config Rule to determine whether the root user has MFA enabled
+- https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/ConfigRuleRootAccountMFAEnabled.yml
+
+Config Rule to determine whether CloudTrail is enabled
+- https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/ConfigRuleCloudtrailEnabled.yml
+
+Config Rule to determine whether all EIP's are attached
+- https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/ConfigRuleEipAttached.yml
+
+Config Rule to determine all EBS Volumes are encyrpted
+- https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/ConfigRuleEncryptedVolumes.yml
+
+Reference:
 - https://github.com/awslabs/aws-config-rules
 - https://github.com/awslabs/aws-config-engine-for-compliance-as-code
 
 ### Step 1.14: In All Accounts Delete Default VPC's in all Regions
+- https://github.com/jrdalino/aws-delete-default-vpc
 
 ### Step 1.15: Enable Guard Duty for Intelligent threat detection
+- https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/EnableAWSGuardDuty.yml
 
 ### Step 1.16: Enable Security Hub for Compliance Scanning
+- 
 
 ### Step 1.17: Enable Cost Usage Report
 - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-reports-gettingstarted-turnonreports.html
