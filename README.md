@@ -10,7 +10,7 @@
 $ aws organizations create-organization
 ```
 
-### Step 1.2: Create Core OU's
+### Step 1.2: Create Core OU
 ```
 $ aws organizations create-organizational-unit \
 --parent-id r-examplerootid111 \
