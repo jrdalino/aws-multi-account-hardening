@@ -103,9 +103,11 @@ Reference:
 - https://aws.amazon.com/answers/account-management/aws-tagging-strategies/
 
 ### Step 1.19: Create AWS Budgets
+- https://github.com/jrdalino/aws-budgets
 - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-create.html
 
 ### Step 1.20: Review usage using Cost Explorer
+- https://github.com/jrdalino/aws-cost-explorer
 - https://console.aws.amazon.com/billing/home?region=ap-southeast-1#/costexplorer
 
 ### Step 1.21: Review Trusted Advisor
