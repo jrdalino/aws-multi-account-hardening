@@ -120,6 +120,7 @@ Reference:
 - https://us-east-1.console.aws.amazon.com/wellarchitected/home?region=us-east-1
 
 ### Step 1.24: Perform Infrastructure Event Management before product launch
+- https://github.com/jrdalino/aws-infrastructure-event-management
 - https://d1.awsstatic.com/whitepapers/aws-infrastructure-event-readiness.pdf
 
 ## (Clean Up)
