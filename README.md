@@ -108,6 +108,10 @@ Reference:
 ### Step 1.20: Review Truster Advisor
 - https://github.com/jrdalino/aws-trusted-advisor
 
+### Step 1.21: Review AWS Health / Personal Health Dashboard
+- https://github.com/jrdalino/aws-health
+- https://phd.aws.amazon.com/phd/home#/dashboard/open-issues
+
 ## (Clean Up)
 
 ## Others
