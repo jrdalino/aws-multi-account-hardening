@@ -108,18 +108,18 @@ Reference:
 ### Step 1.20: Review usage using Cost Explorer
 - https://console.aws.amazon.com/billing/home?region=ap-southeast-1#/costexplorer
 
-### Step 1.20: Review Trusted Advisor
+### Step 1.21: Review Trusted Advisor
 - https://github.com/jrdalino/aws-trusted-advisor
 
-### Step 1.21: Review AWS Health / Personal Health Dashboard
+### Step 1.22: Review AWS Health / Personal Health Dashboard
 - https://github.com/jrdalino/aws-health
 - https://phd.aws.amazon.com/phd/home#/dashboard/open-issues
 
-### Step 1.22: Perform a Well Architected Review
+### Step 1.23: Perform a Well Architected Review
 - https://github.com/jrdalino/aws-well-architected-questions
 - https://us-east-1.console.aws.amazon.com/wellarchitected/home?region=us-east-1
 
-### Step 1.23: Perform Infrastructure Event Management before product launch
+### Step 1.24: Perform Infrastructure Event Management before product launch
 - https://d1.awsstatic.com/whitepapers/aws-infrastructure-event-readiness.pdf
 
 ## (Clean Up)
