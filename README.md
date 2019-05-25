@@ -105,6 +105,9 @@ Reference:
 ### Step 1.19: Create AWS Budgets
 - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-create.html
 
+### Step 1.20: Review usage using Cost Explorer
+- https://console.aws.amazon.com/billing/home?region=ap-southeast-1#/costexplorer
+
 ### Step 1.20: Review Trusted Advisor
 - https://github.com/jrdalino/aws-trusted-advisor
 
@@ -115,6 +118,9 @@ Reference:
 ### Step 1.22: Perform a Well Architected Review
 - https://github.com/jrdalino/aws-well-architected-questions
 - https://us-east-1.console.aws.amazon.com/wellarchitected/home?region=us-east-1
+
+### Step 1.23: Perform Infrastructure Event Management before product launch
+- https://d1.awsstatic.com/whitepapers/aws-infrastructure-event-readiness.pdf
 
 ## (Clean Up)
 
