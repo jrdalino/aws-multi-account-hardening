@@ -105,6 +105,9 @@ Reference:
 ### Step 1.19: Create AWS Budgets
 - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-create.html
 
+### Step 1.20: Review Truster Advisor
+- https://github.com/jrdalino/aws-trusted-advisor
+
 ## (Clean Up)
 
 ## Others
