@@ -90,6 +90,9 @@ Reference:
 ### Step 1.15: Enable Guard Duty for Intelligent threat detection
 - https://s3-ap-southeast-1.amazonaws.com/cloudformation-stackset-sample-templates-ap-southeast-1/EnableAWSGuardDuty.yml
 
+Reference:
+- https://github.com/jrdalino/aws-guardduty
+
 ### Step 1.16: Enable Security Hub for Compliance Scanning
 - 
 
