@@ -112,6 +112,10 @@ Reference:
 - https://github.com/jrdalino/aws-health
 - https://phd.aws.amazon.com/phd/home#/dashboard/open-issues
 
+### Step 1.22: Review Well Architeced Tool
+- https://github.com/jrdalino/aws-well-architected-questions
+- https://us-east-1.console.aws.amazon.com/wellarchitected/home?region=us-east-1
+
 ## (Clean Up)
 
 ## Others
