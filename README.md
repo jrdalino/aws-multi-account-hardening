@@ -105,7 +105,7 @@ Reference:
 ### Step 1.19: Create AWS Budgets
 - https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-create.html
 
-### Step 1.20: Review Truster Advisor
+### Step 1.20: Review Trusted Advisor
 - https://github.com/jrdalino/aws-trusted-advisor
 
 ### Step 1.21: Review AWS Health / Personal Health Dashboard
